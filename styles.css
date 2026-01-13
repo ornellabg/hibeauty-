@@ -1,0 +1,114 @@
+h1{
+  font-family: "Dancing Script", cursive;
+  font-size: 2.6rem;
+  color: #b08d57; /* gold */
+  margin-bottom: 20px;
+
+}
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff5f8; /* very light pink */
+  color: #333;
+  text-align: center;
+}
+.taglinep {
+ font-family: "Dancing Script", cursive;
+  font-size: 1.1em
+  letter-spacing: 1.5px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: pink;
+  padding: 10px;
+  max-width: 200px;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 10px
+}
+/* Header */
+.header {
+  padding: 40px 20px;
+  background-color: #f7c1d9; /* light pink */
+}
+
+.header h1 {
+  margin: 0;
+  color: #b08d57; /* gold */
+  font-size: 2.5rem;
+}
+
+.tagline {
+  margin-top: 10px;
+  color: #6b4c2f;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #b08d57; /* gold */
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #d63384; /* darker pink */
+}
+
+/* Main content */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Cards */
+.card {
+  background-color: #fff;
+  border: 2px solid #f7c1d9;
+  border-radius: 12px;
+  padding: 40px;
+  max-width: 400px;
+  margin: 20px auto;            /* 👈 margin 0 auto aplicado */
+  box-shadow: 0 4px 8px gray;   /* 👈 sombra aprendida */
+  transition: transform 0.2s ease;
+}
+
+.card h2 {
+  color: #b08d57; /* gold */
+  margin-top: 0;
+}
+
+/* Hover effect */
+section:hover {
+  transform: skewX(5deg); /* más sutil para beauty */
+}
+
+/* Services list */
+.services-list {
+  list-style: none;
+  padding: 0;
+}
+
+.services-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #f7c1d9;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  background-color: #f7c1d9;
+  color: #6b4c2f;
+  font-size: 0.9rem;
+}
